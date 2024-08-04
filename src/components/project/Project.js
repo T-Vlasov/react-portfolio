@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Project (props) {
     return (
-        <NavLink to={props.link}>
+        <NavLink target='_blank' to={props.link}>
             <li className="project">
                 <div className="base">
                     <div className="project__img">
